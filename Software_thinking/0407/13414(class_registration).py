@@ -14,4 +14,6 @@ for i in dic:
     result.append(i)
 
 for i in range(a):
+    if i == len(result):
+        break
     print(result[i])
